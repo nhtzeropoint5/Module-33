@@ -3,3 +3,15 @@
 margin: 0 auto;
 padding: 2rem;
 }
+
+.countrySty{
+    font: 10px;
+    padding: 10px;
+    margin: 10px;
+    border:2px solid pink;
+    border-radius: 8px;
+}
+.countryCon{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
